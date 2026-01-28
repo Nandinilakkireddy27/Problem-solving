@@ -1,0 +1,17 @@
+package problems;
+
+public class Discount {
+	public void eligible(int cost) {
+		if (cost>5000) {
+			System.out.println("You are elgible for discount");
+		}else {
+			System.out.println("You are not eligible for discount");
+		}
+	}
+
+	public static void main(String[] args) {
+		Discount obj=new Discount();
+		obj.eligible(6700);
+	}
+
+}
