@@ -1,0 +1,15 @@
+package problems;
+
+public class Result {
+ public static void result(int marks) {
+	 if(marks>=40) {
+		 System.out.println("The student got passed");
+		 }
+	 else {
+		 System.out.println("The student has failed");
+	 }
+ }
+ public static void main(String args[]) {
+	 result(68);
+ }
+}
