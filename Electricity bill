@@ -1,0 +1,22 @@
+package problems;
+
+public class Electricity {
+	public void bill(int units) {
+		if(units<=100) {
+			System.out.println("The electricity bill is: "+ 2*units);
+		}
+		else if(units<=200) {
+			System.out.println("The electricity bill is: "+ 3*units);
+		}
+		else {
+			System.out.println("The electricity bill is: "+ 5*units);
+		}
+	}
+
+	public static void main(String[] args) {
+		Electricity obj = new Electricity();
+		obj.bill(243);
+
+	}
+
+}
